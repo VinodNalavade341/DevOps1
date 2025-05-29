@@ -4,8 +4,8 @@ session_start(); // Make sure it's the first line
 define('SITEURL', 'http://localhost/'); // or your actual domain
 
 // Use correct DB credentials for Docker
-//$conn = mysqli_connect('db', 'food_user', 'food_pass', 'food_ordering');
-$conn = mysqli_connect('host.docker.internal', 'root', '', 'food_ordering');
+$conn = mysqli_connect('db', 'food_user', 'food_pass', 'food_ordering');
+//$conn = mysqli_connect('host.docker.internal', 'root', '', 'food_ordering');
 
 
 // Add connection check (optional)
